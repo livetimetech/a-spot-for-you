@@ -5,14 +5,14 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/10 via-background to-accent/10">
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+<div className="relative z-10 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="animate-fade-in">
           <div className="mb-8">
             <h1 className="text-6xl md:text-8xl font-bold mb-4 gradient-text">
               Live Time
             </h1>
             <div className="text-2xl md:text-3xl font-light text-foreground mb-6">
-              Looking for <span className="font-semibold text-primary">Technical Cofounders</span>
+              Looking for <span className="font-semibold text-primary">Technical Cofounder(s)</span>
             </div>
           </div>
           
@@ -21,8 +21,8 @@ const HeroSection = () => {
               Hi, I'm Emily Wheeler
             </h2>
             <p className="text-xl text-muted-foreground mb-6 max-w-3xl mx-auto leading-relaxed">
-              I grew Live Time from a dorm-coded MVP into a nationwide movement across universities, 
-              raising pre-seed funding from early investors in Facebook, Instagram, Snapchat, and more.
+              I grew Live Time from a dorm-coded MVP into a nationwide platform used across universities, 
+              raising pre-seed funding from early investors in Facebook, Instagram, Tinder, and more.
             </p>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Now I'm looking for 1-2 insane builders who want to change the way humans connect together.
@@ -37,7 +37,7 @@ const HeroSection = () => {
             >
               <a href="mailto:emily@liveti.me?subject=COFOUNDER">
                 <Mail className="w-5 h-5 mr-2" />
-                Email Me Now
+                Email Me!
               </a>
             </Button>
             <Button 
@@ -52,13 +52,6 @@ const HeroSection = () => {
               </a>
             </Button>
           </div>
-        </div>
-      </div>
-      
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2"></div>
         </div>
       </div>
     </section>
